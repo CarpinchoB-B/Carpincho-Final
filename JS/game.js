@@ -282,7 +282,7 @@ darktheme.addEventListener("click",()=>
 {
     darktheme.style.background = 'rgb(113, 182, 113)';
     lighttheme.style.background = 'rgb(159, 167, 212)';
-    fightArea.style.background = 'url(\'../backgrounds/night.jpg\')';
+    fightArea.style.background = 'url(\'../JS/night.jpg\')';
     fightArea.style.backgroundSize = '100% 100%';
 });
 
@@ -290,7 +290,7 @@ lighttheme.addEventListener("click",()=>
 {
     lighttheme.style.background = 'rgb(113, 182, 113)';
     darktheme.style.background = 'rgb(159, 167, 212)';
-    fightArea.style.background = 'url(\'../backgrounds/day.jpg\')';
+    fightArea.style.background = 'url(\'../JS/day.jpg\')';
     fightArea.style.backgroundSize = '100% 100%';
 });
 
