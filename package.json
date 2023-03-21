@@ -1,0 +1,36 @@
+{
+  "name": "clicker-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "electron .",
+  "dev": "electrom .",
+  "build": "electron-builder  build --win --x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electrom": "^19.2.0",
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0"
+  },
+  
+  "build": {
+    "win":
+    {
+      "target":"nsis",
+      "icon":"./enemy/win.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Carpincho"
+    }
+  }
+}
